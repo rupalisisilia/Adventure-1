@@ -72,7 +72,7 @@ header{
 }
 .header-content h1{
 	font-size: 7vmin;
-	margin-top: 50px;
+	margin-top: 10px;
 	margin-bottom: 30px;
 }
 .ctn{
@@ -151,13 +151,42 @@ p{
 	font-size: 5vmin;
 	
 }
-.explore-content p{
-	color: rgb(221, 221, 221,);
-}
 .explore-content .ctn{
 	margin-top: 40px;
 }
 /* end EXPLORE */
+/* tours */
+.content-col{
+	width: 40%;
+}
+.content-col h1{
+	font-size: 5vmin;
+	color: #484872;
+}
+.content-col .line{
+	margin-left: -1px;
+}
+.content-col p{
+	padding: 0;
+	margin: 30px auto;
+}
+.image-col{
+	width: 60%;
+}
+.tours .image-gallery{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	align-items: center;
+}
+.image-gallery img{
+	max-width: 300px;
+	margin: 10px;
+}
+.content-col .ctn{
+	margin-left: -100px;
+}
+/* end tours */
 /* mobile device */
 @media only screen and (max-width:850px){
 	.navbar{
