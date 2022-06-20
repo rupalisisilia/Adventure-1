@@ -10,18 +10,20 @@
 </head>
 <body>
 	<!--navbar-->
-	<div class="navbar">
+	<nav class="navbar">
 		<h1 class="logo">ভ্রমণ কাহিনী</h1>
-		<ul class="nav-link">
-			<li class="active"><a href="#">ফিলিপাইন</a></li>
-			<li><a href="#">ইন্ডিয়া</a></li>
-			<li><a href="#">কক্সবাজার</a></li>
-			<li><a href="#">বিনোদন,</a></li>
-			<li class="ctn"><a href="#">যোগাযোগ</a></li>
+		<ul class="nav-links">
+			<li class="active" ><a href="#"></a>ফিলিপাইন</li>
+			<li><a href="#"></a>ইন্ডিয়া</li>
+			<li><a href="#"></a>কক্সবাজার</li>
+			<li><a href="#"></a>বিনোদন</li>
+			<li class="ctn"><a href="#"></a>যোগাযোগ</li>
 
 		</ul>
 
-	</div>
+		<img src="./images/menu-button-of-three-horizontal-lines (1).png" alt="" class="menu-btn">
+
+	</nav>
 	<!--end navbar-->
 	<header>
 		<div class="header-content">
@@ -32,6 +34,34 @@
 
 		</div>
 	</header>
+
+	<!--== events ==-->
+	<section class="events">
+		<div class="title">
+			<h1>কোথায় কোথায় ঘুরে ছিলাম</h1>
+			<div class="line"></div>
+        </div>
+		<div class="row">
+			<div class="col">
+				<img src="./images/IMG20211007150518.jpg" alt="">
+				<h4>ফিলিপাইন সমুদ্র সৈকত</h4>
+				<p>আমার ঘরটা ছিল খুব সুন্দর জায়গায়, ঘরের জানালা দিয়ে সমুদ্র দেখা যায়। পানির গর্জন শোনা যায় , যখন ঢেউ গুলো তীরে এসে আছড়ে পড়ে তখন এক মনোরম পরিবেশ।</p>
+
+			</div>
+
+		</div>
+
+	</section>
+	<!--== end events ==-->
+
+	<script>
+		const menuBtn=document.querySelector('.menu-btn')
+		const navlinks=document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+		})
+	</script>
 	
 </body>
 </html>
